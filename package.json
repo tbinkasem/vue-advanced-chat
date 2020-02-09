@@ -25,7 +25,7 @@
 	"scripts": {
 		"serve": "vue-cli-service serve",
 		"build": "vue-cli-service build",
-		"build:lib": "vue-cli-service build --target wc --name vue-advanced-chat ./src/main.js",
+		"build:lib": "vue-cli-service build --target wc --name chat-window ./src/ChatWindow/ChatWindow.vue",
 		"prepublish": "npm run build:lib",
 		"publish-beta": "npm publish --tag beta",
 		"lint": "vue-cli-service lint"
@@ -50,6 +50,7 @@
 		"vue-template-compiler": "^2.6.11"
 	},
 	"dependencies": {
+		"@vue/web-component-wrapper": "^1.2.0",
 		"v-click-outside": "^3.0.0",
 		"vue": "^2.6.11",
 		"vue-custom-element": "^3.2.12",
