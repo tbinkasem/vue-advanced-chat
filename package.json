@@ -52,6 +52,7 @@
 	},
 	"dependencies": {
 		"v-click-outside": "^3.0.0",
+		"vue-custom-element": "^3.2.12",
 		"vue-emoji-picker": "^1.0.1",
 		"vue-infinite-loading": "^2.4.4"
 	}
