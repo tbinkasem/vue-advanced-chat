@@ -47,11 +47,11 @@
 		"node-sass": "^4.13.0",
 		"sass": "^1.19.0",
 		"sass-loader": "^8.0.0",
-		"vue-template-compiler": "^2.6.10",
-		"vue": "^2.6.10"
+		"vue-template-compiler": "^2.6.10"
 	},
 	"dependencies": {
 		"v-click-outside": "^3.0.0",
+		"vue": "^2.6.11",
 		"vue-custom-element": "^3.2.12",
 		"vue-emoji-picker": "^1.0.1",
 		"vue-infinite-loading": "^2.4.4"
